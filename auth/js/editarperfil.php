@@ -21,6 +21,6 @@ if (!$authenticated) {  // Si no está autenticado, redirige a la página de ini
 
     
 
-    <input type="submit" value="Guardar Cambios">
+    <input type="submit" value="Guardar Cammbios">
 </form>
 </head>
