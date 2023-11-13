@@ -12,7 +12,11 @@
         <ul class="logo-links">
             <h3><?php echo $username; ?></h3>
             <?php if ($authenticated) : ?>
+                <!-- Agregar el enlace de "Editar Perfil" aquí también -->
+                <li><a href="./auth/editarperfil.php">Editar Perfil</a></li>
+
                 <li><a href="./auth/logout.php">Cerrar Sesión</a></li>
+
                 <?php if ($admin) : ?>
                     <li><a href="./auth/adminDashboard.php">Panel De Administración</a></li>
                 <?php endif; ?>
